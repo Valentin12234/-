@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aroma Life - Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="accent">Welcome to Aroma Life</h1>
+    <p>Handmade scented candles and gifts made with love 💖</p>
+    <img src="images/scented-candle.jpg" alt="Scented Candle">
+    <button onclick="window.location.href='#collection'">Explore the Collection</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aroma Life - Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="accent">Welcome to Aroma Life</h1>
+    <p>Handmade scented candles and gifts made with love 💖</p>
+    <img src="images/scented-candle.jpg" alt="Scented Candle">
+    <button onclick="window.location.href='#collection'">Explore the Collection</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>document.querySelector('button').addEventListener('click', function() {
+  alert('You are now exploring the collection!');
+});
